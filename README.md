@@ -1,39 +1,16 @@
 # Vaporzone
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/vaporzone`. To experiment with that code, run `bin/console` for an interactive prompt.
+### Your goals:
 
-TODO: Delete this and the text above, and describe your gem
+- Take in an email and parse it into relevant fields. Figure out what those relevant fields are.
+- Create a good foundation. Try to write extensible/maintainable code.
+- When you're done, list out next steps you'd take in your implementation. Eg, 'I'd focus on handling different MIME types in the body', etc.
+- Don't use a library like TMail that does parsing for you, but feel free to use any non-email-specific libraries.
 
-## Installation
+### A few notes about your goals:
 
-Add this line to your application's Gemfile:
+- The directions are purposefully vague. Make decisions on what you think is best for the goal you're trying to accomplish. Feel free to tell us why you made certain decisions in your summary.
+- Use the RFC Email Specs as a starting point to help you parse the email.
+- Google is your friend!
 
-```ruby
-gem 'vaporzone'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vaporzone
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/vaporzone/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+--------------------------------------------------------------
