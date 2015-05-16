@@ -1,0 +1,140 @@
+
+Delivered-To: jspencerhopkins@gmail.com
+Received: by 10.229.49.194 with SMTP id w2csp1758714qcf;
+        Tue, 14 Apr 2015 10:52:38 -0700 (PDT)
+X-Received: by 10.52.3.10 with SMTP id 10mr26412245vdy.74.1429033958124;
+        Tue, 14 Apr 2015 10:52:38 -0700 (PDT)
+Return-Path: <annjhopkins@gmail.com>
+Received: from mail-vn0-x22f.google.com (mail-vn0-x22f.google.com. [2607:f8b0:400c:c0f::22f])
+        by mx.google.com with ESMTPS id qj6si1800196vdb.57.2015.04.14.10.52.37
+        for <jspencerhopkins@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Apr 2015 10:52:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of annjhopkins@gmail.com designates 2607:f8b0:400c:c0f::22f as permitted sender) client-ip=2607:f8b0:400c:c0f::22f;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of annjhopkins@gmail.com designates 2607:f8b0:400c:c0f::22f as permitted sender) smtp.mail=annjhopkins@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-vn0-x22f.google.com with SMTP id g190so5710598vnb.12
+        for <jspencerhopkins@gmail.com>; Tue, 14 Apr 2015 10:52:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=ugKpKpA1yICKKK6XjW78PDHLK5NVbRwRwpbA0J7a+5Y=;
+        b=ZSQfDDxWyEEVuP5UxAtZgVHfwWma16LZ48IK0Dn3yjHhMmRs9qvK89nFRFdTtCYhSG
+         hcE7k/agPJaMhkPgUufvTk2xkd3A3NBqOvOQp7z9OUdWkJfZsJdF8vMuzWCjWlyrIQ3r
+         eyA+CBUioMj3SDwl/DpuL6ARfZrS0k2hdgY4mruE2hrp9bnL303aaCLqPSP/I42gkO8j
+         /8noLxoecODW5+JIZX9lqAnVUsMoaCIkKJ6qxBU5reqnCUFIWVZKXNpgL7SHgn4YgD/9
+         ppWBv521VZotgZKGYgCS452fnN7Os2HEPwwhTktwukPrSXo0mjTJqtuxBr4XPTpqguQD
+         vg9A==
+X-Received: by 10.60.150.147 with SMTP id ui19mr2097086oeb.82.1429033957629;
+ Tue, 14 Apr 2015 10:52:37 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.182.46.162 with HTTP; Tue, 14 Apr 2015 10:52:16 -0700 (PDT)
+From: Ann Johnson Hopkins <annjhopkins@gmail.com>
+Date: Tue, 14 Apr 2015 13:52:16 -0400
+Message-ID: <CAAKFeWxa5sh-nBpQqFdzuyR9k9EKucceL6xT9N4Emaq5uAedjA@mail.gmail.com>
+Subject: coding
+To: Spencer Hopkins <jspencerhopkins@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7b5d41ce6aa6340513b2e576
+
+--047d7b5d41ce6aa6340513b2e576
+Content-Type: text/plain; charset=UTF-8
+
+*Coding Practical*
+
+Ready to apply? Take our simple coding practical test and hit the Apply Now
+button below to email us the completed code. Also be sure to include your
+resume, github account, or other relevant pointers to your work online. If
+we like it, we'll invite you in for an interview to make sure we're a good
+fit for each other. Languages Accepted: Ruby, Python, Objective-C, Java or
+Javascript
+
+*Parsing an Email*
+
+What do we mean by parse an email? Go to Gmail, open an incoming email, and
+do View Original. You should see a text file of a raw email. The goal here
+is to parse that and extract relevant fields.
+
+This is actually a very difficult thing and a proper implementation could
+take months. However, it's possible to do the basics, without handling all
+of the intricacies, in maybe an hour.
+
+*Your goals:*
+
+   - Take in an email and parse it into relevant fields. Figure out what
+   those relevant fields are.
+   - Create a good foundation. Try to write extensible/maintainable code.
+   - When you're done, list out next steps you'd take in your
+   implementation. Eg, 'I'd focus on handling different MIME types in the
+   body', etc.
+   - Don't use a library like TMail that does parsing for you, but feel
+   free to use any non-email-specific libraries.
+
+*A few notes about your goals:*
+
+   - The directions are purposefully vague. Make decisions on what you
+   think is best for the goal you're trying to accomplish. Feel free to tell
+   us why you made certain decisions in your summary.
+   - Use the RFC Email Specs as a starting point to help you parse the
+   email.
+   - Google is your friend!
+
+
+-- 
+
+Ann J Hopkins
+864-590-1972
+
+--047d7b5d41ce6aa6340513b2e576
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"font-size:12.8000001907349px"><font face=3D"=
+georgia, serif"><b>Coding Practical</b></font><br clear=3D"all"></div><div =
+style=3D"font-size:12.8000001907349px"><font face=3D"georgia, serif"><br></=
+font></div><div style=3D"font-size:12.8000001907349px"><font face=3D"georgi=
+a, serif">Ready to apply? Take our simple coding practical test and hit the=
+ Apply Now button below to email us the completed code. Also be sure to inc=
+lude your resume, github account, or other relevant pointers to your work o=
+nline. If we like it, we&#39;ll invite you in for an interview to make sure=
+ we&#39;re a good fit for each other. Languages Accepted: Ruby, Python, Obj=
+ective-C, Java or Javascript<br></font></div><div style=3D"font-size:12.800=
+0001907349px"><font face=3D"georgia, serif"><br></font></div><div style=3D"=
+font-size:12.8000001907349px"><font face=3D"georgia, serif"><b>Parsing an E=
+mail</b><br></font></div><div style=3D"font-size:12.8000001907349px"><font =
+face=3D"georgia, serif"><br></font></div><div style=3D"font-size:12.8000001=
+907349px"><font face=3D"georgia, serif">What do we mean by parse an email? =
+Go to Gmail, open an incoming email, and do View Original. You should see a=
+ text file of a raw email. The goal here is to parse that and extract relev=
+ant fields.<br></font></div><div style=3D"font-size:12.8000001907349px"><fo=
+nt face=3D"georgia, serif"><br></font></div><div style=3D"font-size:12.8000=
+001907349px"><font face=3D"georgia, serif">This is actually a very difficul=
+t thing and a proper implementation could take months. However, it&#39;s po=
+ssible to do the basics, without handling all of the intricacies, in maybe =
+an hour.<br></font></div><div style=3D"font-size:12.8000001907349px"><font =
+face=3D"georgia, serif"><br></font></div><div style=3D"font-size:12.8000001=
+907349px"><font face=3D"georgia, serif"><b>Your goals:</b></font></div><div=
+ style=3D"font-size:12.8000001907349px"><font face=3D"georgia, serif"><ul><=
+li style=3D"margin-left:15px">Take in an email and parse it into relevant f=
+ields. Figure out what those relevant fields are.<br></li><li style=3D"marg=
+in-left:15px">Create a good foundation. Try to write extensible/maintainabl=
+e code.<br></li><li style=3D"margin-left:15px">When you&#39;re done, list o=
+ut next steps you&#39;d take in your implementation. Eg, &#39;I&#39;d focus=
+ on handling different MIME types in the body&#39;, etc.<br></li><li style=
+=3D"margin-left:15px">Don&#39;t use a library like TMail that does parsing =
+for you, but feel free to use any non-email-specific libraries.<br></li></u=
+l><div><b>A few notes about your goals:</b><br></div></font></div><div styl=
+e=3D"font-size:12.8000001907349px"><ul><li style=3D"margin-left:15px"><span=
+ style=3D"font-family:georgia,serif">The directions are purposefully vague.=
+ Make decisions on what you think is best for the goal you&#39;re trying to=
+ accomplish. Feel free to tell us why you made certain decisions in your su=
+mmary.</span><br></li><li style=3D"margin-left:15px"><span style=3D"font-fa=
+mily:georgia,serif">Use the RFC Email Specs as a starting point to help you=
+ parse the email.</span><br></li><li style=3D"margin-left:15px"><span style=
+=3D"font-family:georgia,serif">Google is your friend!</span></li></ul></div=
+><div><br></div>-- <br><div class=3D"gmail_signature"><br>Ann J Hopkins<br>=
+864-590-1972<br><br></div>
+</div>
+
+--047d7b5d41ce6aa6340513b2e576--
