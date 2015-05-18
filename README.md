@@ -19,7 +19,7 @@
 
 
 ##### Decisions made along the way
-- Relevant fields to parse/capture: From:, Date:, Subject:, To:, Plain Text Body 
+- Relevant fields to parse/capture: From, Date, Subject, To, Plain Text Body 
 - Split text up based on relevant parts as opposed to iterate over all lines of the email
 - Split email into two parts: header & body "parts" at 1st boundary break
 - Once header was defined, split the header at the relevant fields
@@ -27,4 +27,5 @@
 
 
 ##### Next steps to take
-- Account for all Content-Type emails - including those with attachments
+- Account for all Content-Type body types
+- Handle emails with attachments and extract those attachments
