@@ -27,5 +27,5 @@
 
 
 ##### Next steps to take
-- Account for all Content-Type body types
+- Account for all Content-Type body "parts"
 - Handle emails with attachments and extract those attachments
