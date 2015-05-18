@@ -14,3 +14,17 @@
 - Google is your friend!
 
 --------------------------------------------------------------
+
+# Summary of Implementation
+
+
+##### Decisions made along the way
+- Relevant fields to parse/capture: From:, Date:, Subject:, To:, Plain Text Body 
+- Split text up based on relevant parts as opposed to iterate over all lines of the email
+- Split email into two parts: header & body "parts" at 1st boundary break
+- Once header was defined, split the header at the relevant fields
+- Extract plain text from body
+
+
+##### Next steps to take
+- Account for all Content-Type emails - including those with attachments
